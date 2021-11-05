@@ -4,5 +4,3 @@ function Pizza (size, sauce, topping) {
   this.topping = topping;
 }
 
-let testOne = new Pizza ("medium", "classic tomato", ["pepperoni", "onion"]);
-testOne;
