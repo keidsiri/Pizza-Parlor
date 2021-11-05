@@ -54,7 +54,13 @@ _If you have any questions please feel free to [Contact me](mailto:keidsiri@gmai
 ## Testing
 
 Describe: Pizza()
+------------------|--------------
 
-Test: "It should return a Pizza object with two properties for toppings and size"
-Code: const myPizza = new Pizza(["anchovies", "pineapple"], "medium");
-Expected Output: Pizza { toppings: ["anchovies", "pineapple"], size: "medium" }
+Test: | "It should return a Pizza object with three properties for size, sauce and topping"
+Code: | const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);
+Expected Output: | Pizza { size: "medium" , toppings: ["pepperoni", "onion"]}
+
+
+
+
+<!-- topping : [pepperoni ,italian sausage, bacon, mushroom, onion, bell pepper, pineapple] -->
