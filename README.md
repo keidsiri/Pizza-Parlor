@@ -77,11 +77,10 @@ code: let test = new Pizza("Large", "BBQ", ["onion"])
 test.priceCalculate();
 Expected Output: 12.99 (9.99 + 3)
 
-Test: "It should calculate cost of pizza base on topping for $2 each if selected"
-code: let test = new Pizza("Large", "Classic tomato", ["onion"])
+Test: "It should calculate cost of pizza base on topping for $1 each if selected"
+code: let test = new Pizza("", "", ["onion"])
 test.priceCalculate();
-Expected Output: 11.99 (9.99 + 2)
-
+Expected Output: 1
 
 
 
