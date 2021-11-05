@@ -60,8 +60,12 @@ Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion
 Expected Output:  Pizza { size: "medium" , toppings: ["pepperoni", "onion"]}
 
 
+test: "It should return a properties with in topping array"
+Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);
+Pizza.topping; 
+Expected Output: ["pepperoni", "onion"]
 
 
 
 
-<!-- topping : [pepperoni ,italian sausage, bacon, mushroom, onion, bell pepper, pineapple] -->
+

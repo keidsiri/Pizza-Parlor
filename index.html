@@ -14,7 +14,7 @@
       sauce and many choices of toppings 
     </p>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <form id="pizza">
           <div class="card">
             <label for="size">Size</label>
@@ -36,7 +36,7 @@
           </div>
           <div class="card">
             <div class="topping">
-              <h4>Please select your topping of your choices for $2 each</h4>
+              <p>Please select your topping of your choices for $2 each</p>
               <div class="col">
                 <label for="Pepperoni">Pepperoni</label>
                 <input type="checkbox" name="topping" value="Pepperoni">
@@ -62,7 +62,11 @@
               </div>
             </div>
           </div>
-          
+          <div class="custom-control custom-switch">
+            <input class="custom-control-input" type="checkbox" id="delivery" name="delivery" value=true>
+            <label class="custom-control-label" for="delivery">Would you like us to deliver?</label>
+          </div>
+          <input class="btn btn-primary" type="submit" value="Checkout your order">
         </form>
       </div>
     </div>
