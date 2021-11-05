@@ -5,19 +5,21 @@ function Pizza (size, sauce, topping) {
   this.price = 9.99;
 }
 
-const size = 
 
 
 Pizza.prototype.priceCalculate = function() {
   if ( this.size === "X-large") {
-    this.price += 6;
+    return this.price += 6;
   } else if (this.size === "Large") {
-    this.price += 4;
+    return this.price += 4;
   } else if (this.size = "Medium") {
-    this.price += 2;
+    return this.price += 2;
   }
 }
 
+let test = new Pizza("Large", "Classic tomato", ["onion"])
+
+test.priceCalculate();
 
 
 

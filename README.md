@@ -65,7 +65,12 @@ Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion
 Pizza.topping; 
 Expected Output: ["pepperoni", "onion"]
 
+Describe: Pizza.prototype.priceCalculate()
 
+Test: "It should calculate cost of pizza base on size ("Small", "Medium", "Large","Extra-large")
+code: let test = new Pizza("Large", "Classic tomato", ["onion"])
+test.priceCalculate();
+Expected Output: 13.99 (9.99 + 4)
 
 
 
