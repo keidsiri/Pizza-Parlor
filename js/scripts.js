@@ -19,7 +19,14 @@ function Pizza (size, sauce, topping) {
 // }
 
 Pizza.prototype.priceCalculate = function() {
-  this.price = 0;
+  let totalTopping = 0;
+  if ( this.size === "X-large") {
+    this.price += 1;
+  } if (this.size === "Large") {
+    this.price += 1;
+  } if (this.size = "Medium") {
+    this.price += 1;
+  }
   if ( this.sauce === "BBQ") {
     this.price += 3;
   } if (this.sauce === "Pesto") {
@@ -28,7 +35,6 @@ Pizza.prototype.priceCalculate = function() {
     this.price += 1;
   }
 
-  let totalTopping = 0;
   this.topping.forEach(function(topping) {
     switch(topping) {
       case ("Pepperoni"):
