@@ -53,12 +53,13 @@ _If you have any questions please feel free to [Contact me](mailto:keidsiri@gmai
 
 ## Testing
 
-Describe: Pizza()|  
------------------|--------------
+Describe: Pizza() 
 
-Test | "It should return a Pizza object with three properties for size, sauce and topping"
-Code | const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);
-Expected Output | Pizza { size: "medium" , toppings: ["pepperoni", "onion"]}
+Test: "It should return a Pizza object with three properties for size, sauce and topping"
+Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);
+Expected Output:  Pizza { size: "medium" , toppings: ["pepperoni", "onion"]}
+
+
 
 
 
