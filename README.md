@@ -1,5 +1,5 @@
 # Pizza Parlor
-### The 4th independent project to create the website company for customers to one or more individual topping and size to order the pizza and return the final price.
+#### The 4th independent project to create the website company for customers to one or more individual topping and size to order the pizza and return the final price.
 
 #### By _Kate Kiatsiri_
 
@@ -50,3 +50,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 _If you have any questions please feel free to [Contact me](mailto:keidsiri@gmail.com)_
+
+## Testing
+
+Describe: Pizza()
+
+Test: "It should return a Pizza object with two properties for toppings and size"
+Code: const myPizza = new Pizza(["anchovies", "pineapple"], "medium");
+Expected Output: Pizza { toppings: ["anchovies", "pineapple"], size: "medium" }
