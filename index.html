@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Kate Digital homemade pizza</h1>
+    <h1>Kate Digital Homemade Pizza</h1>
     <p>Our pizza is made to order so you can create your own personal pizza. Please select size , 
       sauce and many choices of toppings 
     </p>
@@ -27,11 +27,11 @@
           </div>
           <div class="card">
             <label for="sauce">Sauce</label>
-            <select class="form-control" id="size">
-              <option value="0">Classic Tomato</option>
-              <option value="1">White Garlic</option>
-              <option value="2">Pesto</option>
-              <option value="3">BBQ</option>
+            <select class="form-control" id="sauce">
+              <option value="false">Classic Tomato</option>
+              <option value="true">White Garlic</option>
+              <option value="true">Pesto</option>
+              <option value="true">BBQ</option>
             </select>
           </div>
           <div class="card">
@@ -73,10 +73,12 @@
         <div class="result">
           <h1>Your Pizza order!</h1>
           <img src="./img/pizza.jpg" class="card-img" alt="Picture of a pepperoni pizza.">
-          <h2 id="your-size"></h2>
+          <h3 id="your-size"></h2>
           <h3 id="your-sauce"></h3>
-          <h4 id="your-topping"></h4>
+          <h3 id="your-topping"></h4>
+          <h3 id="your-delivery"></h3>
           <h1 id="your-price"></h1>
+
         </div>
       </div>
     </div>

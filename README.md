@@ -55,33 +55,42 @@ _If you have any questions please feel free to [Contact me](mailto:keidsiri@gmai
 
 Describe: Pizza() 
 
-Test: "It should return a Pizza object with three properties for size, sauce and topping"
-Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);
-Expected Output:  Pizza { size: "medium" , toppings: ["pepperoni", "onion"]}
+Test: "It should return a Pizza object with three properties for size, sauce and topping" <br>
+Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);<br>
+Expected Output:  Pizza { size: "medium" , toppings: ["pepperoni", "onion"]}<br>
 
 
-test: "It should return a properties with in topping array"
-Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);
-Pizza.topping; 
-Expected Output: ["pepperoni", "onion"]
+test: "It should return a properties with in topping array"<br>
+Code: const myPizza = new Pizza("medium", "classic tomato", ["pepperoni", "onion"]);<br>
+Pizza.topping; <br>
+Expected Output: ["pepperoni", "onion"]<br>
 
 Describe: Pizza.prototype.priceCalculate()
 
-Test: "It should calculate cost of pizza base on size ("Small", "Medium", "Large","Extra-large")
-code: let test = new Pizza("Large", "Classic tomato", ["onion"])
-test.priceCalculate();
-Expected Output: 13.99 (9.99 + 4)
+Test: "It should calculate cost of pizza base on size ("Small", "Medium", "Large","Extra-large")<br>
+code: let test = new Pizza("Large", "Classic tomato", ["onion"])<br>
+test.priceCalculate();<br>
+Expected Output: 13.99 (9.99 + 4)<br>
 
-Test: "It should calculate cost of pizza base on sauce ("BBQ", "Pesto", "White Garlic")
-code: let test = new Pizza("Large", "BBQ", ["onion"])
-test.priceCalculate();
-Expected Output: 12.99 (9.99 + 3)
+Test: "It should calculate cost of pizza base on sauce ("BBQ", "Pesto", "White Garlic")<br>
+code: let test = new Pizza("Large", "BBQ", ["onion"])<br>
+test.priceCalculate();<br>
+Expected Output: 12.99 (9.99 + 3)<br>
 
-Test: "It should calculate cost of pizza base on topping for $1 each if selected"
-code: let test = new Pizza("", "", ["onion"])
-test.priceCalculate();
-Expected Output: 1
+Test: "It should calculate cost of pizza base on topping for $1 each if selected"<br>
+code: let test = new Pizza("", "", ["onion"])<br>
+test.priceCalculate();<br>
+Expected Output: 1<br>
 
+Test: "It should calculate cost of pizza base on topping for $1 each if selected"<br>
+code: let test = new Pizza("", "", ["onion", "Mushroom"])<br>
+test.priceCalculate();<br>
+Expected Output: 2<br>
+
+Test: "It should calculate cost of pizza base on topping for $1 each if selected"<br>
+code: let test = new Pizza("Large", "BBQ", ["onion"])<br>
+test.priceCalculate();<br>
+Expected Output: <br>
 
 
 
