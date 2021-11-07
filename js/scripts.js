@@ -18,8 +18,7 @@ Pizza.prototype.priceCalculate = function() {
     this.price += 3;
   } if (this.size === "Medium") {
     this.price += 2;
-  } 
-  if ( this.sauce === "BBQ") {
+  } if ( this.sauce === "BBQ") {
     this.price += 3;
   } if (this.sauce === "Pesto") {
     this.price += 2;
@@ -27,14 +26,11 @@ Pizza.prototype.priceCalculate = function() {
     this.price += 1;
   } if (this.order) {
     this.price += 5;
-  }
-  if (this.topping1) {
+  } if (this.topping1) {
     this.price += 0.5;
-  }
-  if (this.topping2 ) {
+  } if (this.topping2 ) {
     this.price += 0.5;
-  }
-  if (this.topping3 ) {
+  } if (this.topping3 ) {
     this.price += 0.5;
   }
   return this.price;
