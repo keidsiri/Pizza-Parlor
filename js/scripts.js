@@ -77,7 +77,8 @@ $(document).ready(function() {
       delivery = true;
     }
     let myPizza = new Pizza (size ,sauce ,topping1, topping2, topping3, delivery);
-    displayPrice(myPizza);
+    $("#pizza").toggle();
+    displayPrice(myPizza).fadeIn();
   });
 });
 
