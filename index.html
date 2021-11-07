@@ -19,49 +19,56 @@
           <div class="card">
             <label for="size">Size</label>
             <select class="form-control" id="size">
-              <option value="0">Small</option>
-              <option value="2">Medium</option>
-              <option value="4">Large</option>
-              <option value="6">Extra-large</option>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+              <option value="Extra-large">Extra-large</option>
             </select>
           </div>
           <div class="card">
             <label for="sauce">Sauce</label>
             <select class="form-control" id="sauce">
-              <option value="false">Classic Tomato</option>
-              <option value="true">White Garlic</option>
-              <option value="true">Pesto</option>
-              <option value="true">BBQ</option>
+              <option value="Classic Tomato">Classic Tomato</option>
+              <option value="White Garlic">White Garlic</option>
+              <option value="Pesto">Pesto</option>
+              <option value="BBQ">BBQ</option>
             </select>
           </div>
+          
           <div class="card">
-            <div class="topping">
-              <p>Please select your topping of your choices for $1 each</p>
-              <div class="col">
-                <label for="Pepperoni">Pepperoni</label>
-                <input type="checkbox" name="topping" value="Pepperoni">
-                <br>
-                <label for="Italian Sausauge">Italian Sausage</label>
-                <input type="checkbox" name="topping" value="Italian Sausage">
-                <br>
-                <label for="Bacon">Bacon</label>
-                <input type="checkbox" name="topping" value="Bacon">
-                <br>
-                <label for="Mushroom">Mushroom</label>
-                <input type="checkbox" name="topping" value="Mushroom">
-                <br>
-                <label for="Bell pepper">Bell pepper</label>
-                <input type="checkbox" name="topping" value="Bell pepper">
-                <br>
-                <label for="Onion">Onion</label>
-                <input type="checkbox" name="topping" value="Onion">
-                <br>
-                <label for="Pineapple">Pineapple</label>
-                <input type="checkbox" name="topping" value="Pineapple">
-                <br>
-              </div>
+            <p>Please select your topping (additional $0.5 each )</p>
+            <div class="form-group">
+              <label for="topping">Topping 1</label>
+              <select class="form-control" id="topping1">
+              <option value="false"></option>
+              <option value="true">Pepperoni</option>
+              <option value="true">Italian sausage</option>
+              <option value="true">Mushroom</option>
+              <option value="true">Bell pepper</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="topping">Topping 2</label>
+              <select class="form-control" id="topping2">
+                <option value="false"></option>
+                <option value="true">Pepperoni</option>
+                <option value="true">Italian sausage</option>
+                <option value="true">Mushroom</option>
+                <option value="true">Bell pepper</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="topping">Topping 3</label>
+              <select class="form-control" id="topping3">
+                <option value="false"></option>
+                <option value="true">Pepperoni</option>
+                <option value="true">Italian sausage</option>
+                <option value="true">Mushroom</option>
+                <option value="true">Bell pepper</option>
+              </select>
             </div>
           </div>
+
           <div class="custom-control custom-switch">
             <input class="custom-control-input" type="checkbox" id="delivery" name="delivery" value=true>
             <label class="custom-control-label" for="delivery">Would you like us to deliver?</label>
@@ -75,7 +82,9 @@
           <img src="./img/pizza.jpg" class="card-img" alt="Picture of a pepperoni pizza.">
           <h3 id="your-size"></h2>
           <h3 id="your-sauce"></h3>
-          <h3 id="your-topping"></h4>
+          <h3 id="your-topping1"></h3>
+          <h3 id="your-topping2"></h3>
+          <h3 id="your-topping3"></h3>
           <h3 id="your-delivery"></h3>
           <h1 id="your-price"></h1>
 
