@@ -1,7 +1,8 @@
 # Pizza Parlor
+
 #### The 4th independent project to create the website company for customers to one or more individual topping and size to order the pizza and return the final price.
 
-#### By _Kate Kiatsiri_
+#### By: _Kate Kiatsiri_
 
 ## Technologies used
   1. HTML
@@ -10,12 +11,12 @@
   4. Javascript & jQuery
 
 ## Description
-_Branching lesson practice: drink.html , styles.css , scripts.js_
+This is the 4th independent project at Epicodus. This project is assigned to create the website for pizza company where user can create their own pizza and choose their own size, sauce and toppings and show the total cost of pizza based on those factors. You can check out this website <a href="https://keidsiri.github.io/Pizza-Parlor"> click here! </a>
 
 ## Set up/installation requirement
 * Code editor required (such as Visual Studio Code) and Github account.
-* Navigate this address https://github.com/chynnalew/pizza into your browser or 
-<a href="https://github.com/chynnalew/pizza"> click here! </a>
+* Navigate this address https://github.com/keidsiri/Pizza-Parlor into your browser or 
+<a href="https://github.com/keidsiri/Pizza-Parlor"> click here! </a>
 * Clone this repository to your desktop.
 * Navigate to the top of directory
 * Connect to your Github repository
