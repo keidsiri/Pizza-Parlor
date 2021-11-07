@@ -41,9 +41,6 @@ Pizza.prototype.priceCalculate = function() {
 }
 
 
-// let test1 = new Pizza("X-large", "BBQ", ["Onion", "Bacon"])
-// test1.priceCalculate();
-
 // UI logic
 
 function displayPrice(pizza) {

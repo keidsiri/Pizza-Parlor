@@ -1,7 +1,7 @@
 .result {
   display: none;
   text-align:center;
-  color:lightblue;
+  color:rgb(30, 73, 73);
 }
 
 body {
@@ -12,9 +12,10 @@ body {
 }
 
 h1 {
-  color:aliceblue;
+  color:rgb(192, 227, 231);
   font-family:monospace;
   text-align: center;
+  font-size: 60px;
 }
 
 h4 {

@@ -77,20 +77,19 @@ code: let test = new Pizza("Large", "BBQ", ["onion"])<br>
 test.priceCalculate();<br>
 Expected Output: 12.99 (9.99 + 3)<br>
 
-Test: "It should calculate cost of pizza base on topping for $1 each if selected"<br>
-code: let test = new Pizza("", "", ["onion"])<br>
+Test: "It should calculate cost of pizza base on topping for $0.5 each if selected"<br>
+code: let test = new Pizza("", "" , "Pepperoni")<br>
 test.priceCalculate();<br>
-Expected Output: 1<br>
+Expected Output: 0.5<br>
 
-Test: "It should calculate cost of pizza base on topping for $1 each if selected"<br>
-code: let test = new Pizza("", "", ["onion", "Mushroom"])<br>
+Test: "It should calculate total cost of pizza based on size, sauce and toppings"<br>
+code: let test = new Pizza("Large", "Pesto" , "Pepperoni", "Mushroom", "Bell Pepper)<br>
 test.priceCalculate();<br>
-Expected Output: 2<br>
+Expected Output: 16.5<br>
 
-Test: "It should calculate cost of pizza base on topping for $1 each if selected"<br>
-code: let test = new Pizza("Large", "BBQ", ["onion"])<br>
+Test: "It should calculate total cost of pizza plus delivery fee $5"<br>
+code: let test = new Pizza("Large", "Pesto" , "Pepperoni", "Mushroom", "Bell Pepper)<br>
 test.priceCalculate();<br>
-Expected Output: <br>
-
+Expected Output: 21.5<br>
 
 
