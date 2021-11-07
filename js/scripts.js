@@ -36,9 +36,7 @@ Pizza.prototype.priceCalculate = function() {
   return this.price;
 }
 
-
 // UI logic
-
 function displayPrice(pizza) {
   $(".result").show();
   $("#your-size").text("Size : " + pizza.size);
